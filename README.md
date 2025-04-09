@@ -20,6 +20,8 @@
 
 **Carbon Compass** helps individuals and organizations track, analyze, and reduce their carbon footprints. By integrating AI-powered recommendations and gamification elements, the app makes sustainability engaging and impactful.
 
+**DEPLOYED LINK :** https://carbon-compass1.vercel.app/
+
 ---
 
 ## 🎯 Aim
