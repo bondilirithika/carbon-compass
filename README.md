@@ -63,7 +63,7 @@
 | AI & Insights | Gemini API                     |
 | Backend DB    | Firebase Firestore             |
 | Auth          | Firebase Authentication        |
-| Deployment    | Netlify                        |
+| Deployment    | Vercel                         |
 
 ---
 
@@ -77,7 +77,7 @@
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/ManjuBodi/carbontrial2
+   git clone https://github.com/bondilirithika/carbon-compass
    cd carbon-compass
    ```
 2. **Install Dependencies**:
