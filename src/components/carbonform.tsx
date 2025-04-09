@@ -141,7 +141,7 @@ const CarbonForm: React.FC = () => {
                         totalEmissions,
                     };
                     
-                    const genAI = new GoogleGenerativeAI("AIzaSyCe0Ou82pkEAy7sVo3cODMoVqsfwHrcyk4");
+                    const genAI = new GoogleGenerativeAI("AIzaSyA528kfAXpGqd_mamOSwRHIm47oyqwZb-U");
                     const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
                     const prompt = `(summarise the content within 200-250 words) Given the following business data, suggest a phase wise implementation carbon reduction strategy: ${JSON.stringify(payload)}`;
                     const result = await model.generateContentStream(prompt);
