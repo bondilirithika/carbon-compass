@@ -1,12 +1,11 @@
 import { GoogleGenerativeAI } from "@google/generative-ai";
 import { CarbonFormData } from "../types/types";
 // Initialize GoogleGenerativeAI with your API key
-const genAI = new GoogleGenerativeAI("AIzaSyDHz726NJiY0CtS366nwLfZWhfyniPgxsY");
+const genAI = new GoogleGenerativeAI(import.meta.env.VITE_GEMINI_API_KEY as string);
 
-// Get the generative model without systemInstruction
+// Get the generative model
 const model = genAI.getGenerativeModel({
-  model: "gemini-1.5-flash",
-  //systemInstruction: "For every prompt, separately mention equivalent carbon credits, for the emissions that can be reduced after following reduction strategies", // Remove this line
+  model: "gemini-2.5-flash",
 });
 
 const generationConfig = {
